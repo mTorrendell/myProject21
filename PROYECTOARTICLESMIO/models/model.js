@@ -14,9 +14,9 @@ const sequelize = new Sequelize(
 );
 
 const Article = require("./articleModel")({ Sequelize, DataTypes, Model })
-const Role = require("./articleModel")({ Sequelize, DataTypes, Model })
-const Comment = require("./articleModel")({ Sequelize, DataTypes, Model })
-const User = require("./articleModel")({ Sequelize, DataTypes, Model })
+const Role = require("./roleModel")({ Sequelize, DataTypes, Model })
+const Comment = require("./commentModel")({ Sequelize, DataTypes, Model })
+const User = require("./userModel")({ Sequelize, DataTypes, Model })
 
 
 //Creamos las relaciones (la tabla genera una columna del ID de la entidad realcionada - si es necesario )
