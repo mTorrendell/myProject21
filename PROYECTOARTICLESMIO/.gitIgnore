@@ -1,0 +1,12 @@
+#Ignore node_modules
+node_modules/
+
+#Ignore environment
+.env
+
+#Ignore settings
+.vscode
+
+#Ignore blog images
+public/images
+
