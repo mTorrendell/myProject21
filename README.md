@@ -1,4 +1,4 @@
-# Ejercicio_Blog
+# HACKFLIX
 
 ## Modulos Instalados
 
@@ -17,4 +17,5 @@
 ### - Slugify
 
 ### - Faker
-q
+
+EJERCICIO PRÁCTICO: clonando netflix
